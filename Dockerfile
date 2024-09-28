@@ -10,6 +10,6 @@ RUN apk add --no-cache --virtual .build-deps \
         git \
         linux-headers \
         python3 && \
-    npm install balena-cli -g --production --unsafe-perm && \
+    npm install balena-cli@19.0.12 -g --production --unsafe-perm && \
     apk del --no-cache .build-deps && \
     rm -rf ~/.npm ~/.cache
