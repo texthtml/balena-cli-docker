@@ -1,4 +1,8 @@
-# balena-cli-docker
-balena-cli image for Docker
+# Balena CLI docker image
 
-https://www.balena.io/docs/reference/balena-cli/
+[Balena CLI](https://www.balena.io/docs/reference/balena-cli/) image for Docker
+
+
+## Usage
+
+`docker run --rm texthtml/balena-cli balena`
