@@ -11,6 +11,6 @@ RUN apk add --no-cache --virtual .build-deps \
         linux-headers \
         python3 \
         libudev-zero-dev && \
-    npm install balena-cli@20.0.0 -g --omit=dev --unsafe-perm && \
+    npm install balena-cli@20.1.6 -g --omit=dev --unsafe-perm && \
     apk del --no-cache .build-deps && \
     rm -rf ~/.npm ~/.cache
