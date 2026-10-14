@@ -1,4 +1,4 @@
-FROM node:24.21-alpine3.23
+FROM node:24.22-alpine3.23
 
 LABEL Description="The Balena CLI"
 
